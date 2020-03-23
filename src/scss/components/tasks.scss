@@ -1,0 +1,54 @@
+$colors: red,
+green,
+blue,
+pink;
+.task-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 6rem 30rem 19rem;
+}
+
+.task {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 1rem 3.5rem;
+    background: rgba(224, 18, 18, 0.801);
+    // &:li:nth-of-type(n-1) {
+    //     background: $colors;
+    // }
+}
+
+.task-title {
+    font-size: 2rem;
+    margin: 3rem;
+    color: #ffffff;
+}
+
+.task-text {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: lighter;
+    padding: 2rem 3.5rem;
+    color: #ffffff;
+}
+
+.know-more-button {
+    font-size: 2rem;
+    border: 0px solid black;
+    border-radius: 3rem;
+    background: #ffffff;
+    color: #616161;
+    margin: 1rem 3rem -5rem;
+    cursor: pointer;
+}
+
+.fa-diamond {
+    color: #ffffff;
+    padding-top: 5rem;
+}
+
+.fa-plus {
+    color: #616161;
+    margin: 1rem 0;
+}

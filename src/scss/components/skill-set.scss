@@ -1,0 +1,42 @@
+.units-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30rem;
+}
+
+.units {
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin: 1rem 3.5rem;
+}
+
+.sides {
+    background: rgb(240, 66, 66);
+}
+
+.center {
+    background: rgba(240, 66, 66, 0.349);
+}
+
+.button {
+    font-size: 2.5rem;
+    border: 0px solid black;
+    background: #ffffff;
+    color: #616161;
+    cursor: pointer;
+    margin: 40rem 10rem -1.5rem 10rem;
+    padding: 2rem 4rem;
+}
+
+.button-title {
+    font-size: 1.3rem;
+    color: #616161;
+    margin: -3rem 2rem -1rem 2rem;
+    line-height: 3rem;
+}
+
+.cv-text {
+    display: flex;
+    flex-direction: column;
+    margin: 10rem;
+}

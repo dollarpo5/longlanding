@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    // height: 650vh;
+    // width: 100vw;
+    // overflow: hidden;
+    font-size: 10px;
+    // overflow-x: hidden;
+}
+
+.global-wrapper {
+    display: flex;
+}
+
+.block {
+    // height: 145vh;
+    width: 100wv;
+}
+
+// .square-block {
+//     height: 150vh;
+//     width: 100wv;
+// }
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 5rem;
+    margin: 6.5rem 0rem 10rem 10rem;
+    border: 0.3rem solid #000000;
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.fa-bars {
+    margin: 7rem 10rem 6rem 0rem;
+    cursor: pointer;
+}
+
+// li {
+//     background: #fff;
+// }
+li:nth-of-type(2n-1) {
+    background: #ebebeb;
+}
+
+p::first-letter {
+    color: #dd7d00
+}
+
+.h1 {
+    font-size: 6rem;
+    margin: -3rem 60rem 4rem;
+}
+
+.front-page-text {
+    font-size: 2rem;
+    margin: 1rem 50rem 9rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/form";
+.h2 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 15rem 43rem 6rem 45rem;
+}
+
+.second-page-text {
+    font-size: 2rem;
+    margin: 0rem 30rem 4rem 30rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/tasks";
+.h3 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 10rem 43rem 0rem 46rem;
+    line-height: 15.5rem;
+}
+
+.third-page-text {
+    font-size: 2rem;
+    margin: 5rem 40rem 4rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/work-blocks";
+.h4 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 0rem 43rem 0rem 46rem;
+    line-height: 15.5rem;
+}
+
+.fourth-page-text {
+    font-size: 2rem;
+    margin: 5rem 40rem 4rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/columns";
+.h5 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 1rem 43rem 2rem 46rem;
+    line-height: 15rem;
+}
+
+.fifth-page-text {
+    font-size: 2rem;
+    margin: -5rem 40rem 4rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/skill-set.scss";
