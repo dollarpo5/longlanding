@@ -127,3 +127,18 @@ p::first-letter {
 }
 
 @import "components/skill-set.scss";
+.h6 {
+    font-size: 6rem;
+    text-align: center;
+    margin: 7rem 43rem 2rem 46rem;
+    line-height: 15rem;
+}
+
+.six-page-text {
+    font-size: 2rem;
+    margin: -5rem 40rem 4rem;
+    text-align: center;
+    color: #797979c0;
+}
+
+@import "components/slider.scss";

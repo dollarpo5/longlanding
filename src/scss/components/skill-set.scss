@@ -2,20 +2,21 @@
     display: flex;
     justify-content: space-between;
     margin: 0 30rem;
+    padding: 0rem 0rem 7rem;
 }
 
 .units {
-    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    // box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: 1rem 3.5rem;
 }
 
 .sides {
-    background: rgb(240, 66, 66);
+    background: rgb(255, 111, 67);
 }
 
 .center {
-    background: rgba(240, 66, 66, 0.349);
+    background: rgb(255, 237, 231);
 }
 
 .button {
@@ -24,8 +25,8 @@
     background: #ffffff;
     color: #616161;
     cursor: pointer;
-    margin: 40rem 10rem -1.5rem 10rem;
-    padding: 2rem 4rem;
+    margin: 40rem 10rem -1.5rem;
+    padding: 3rem 1rem 2rem 2rem;
 }
 
 .button-title {
@@ -38,5 +39,40 @@
 .cv-text {
     display: flex;
     flex-direction: column;
-    margin: 10rem;
+    margin: 20rem 10rem 4rem 10rem;
+}
+
+.text {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0.5rem 2rem;
+}
+
+.bar-one {
+    padding: 0.2rem 6rem 0.2rem;
+    background: rgb(192, 93, 0);
+}
+
+.bar-two {
+    padding: 0.2rem 1rem 0.2rem;
+    background: rgb(114, 114, 114);
+}
+
+.author {
+    font-size: 3rem;
+    // margin: -2rem 1rem;
+}
+
+.title {
+    font-size: 1.3rem;
+    color: rgb(255, 137, 101);
+    // margin: -4rem 1rem;
+}
+
+.fa-twitter,
+.fa-facebook {
+    color: #b4b4b4;
+    margin: 1rem;
 }
