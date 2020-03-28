@@ -13,12 +13,12 @@
 }
 
 .sides {
-    box-shadow: 0 0 2px rgba(20, 20, 21, 0.6);
+    box-shadow: 0 0 0.2rem rgba(20, 20, 21, 0.6);
     background-color: #ff5c36;
 }
 
 .center {
-    box-shadow: 0 0 49px rgba(20, 20, 21, 0.11);
+    box-shadow: 0 0 4.9rem rgba(20, 20, 21, 0.11);
     background-color: #fff3f0;
 }
 
@@ -28,11 +28,11 @@
 
 .button {
     color: #000000;
-    box-shadow: 1px 6px 16px rgba(7, 7, 7, 0.363);
+    box-shadow: 0.1rem 0.6rem 1.6rem rgba(7, 7, 7, 0.363);
     font-family: "Open Sans";
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 500;
-    border: 0px solid black;
+    border: 0rem solid black;
     background: #ffffff;
     color: #616161c2;
     cursor: pointer;
@@ -42,7 +42,7 @@
 
 .button-title {
     font-family: "Open Sans";
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 300;
     color: #616161c2;
     margin: -3rem 6rem 0rem 6rem;
@@ -68,7 +68,7 @@
 
 .bar-one {
     padding: 0.2rem 6rem 0.2rem;
-    border-radius: 2px;
+    border-radius: 0.2rem;
     background-color: #ff6f47c2;
 }
 
@@ -81,7 +81,7 @@
     opacity: 0.85;
     color: #202020c2;
     font-family: "Open Sans";
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 400;
     // margin: -2rem 1rem;
 }
@@ -93,7 +93,11 @@
     // margin: -4rem 1rem;
 }
 
-.fa-twitter,
+.fa-twitter {
+    color: #b4b4b4;
+    margin: 1rem;
+}
+
 .fa-facebook {
     color: #b4b4b4;
     margin: 1rem;

@@ -1,15 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700";
 form {
-    max-width: 420px;
+    max-width: 42rem;
     margin: 2rem 3rem 3rem 8rem;
     padding: 3rem 4rem;
     background: rgb(255, 255, 255);
-    box-shadow: 0 0 57px rgba(20, 20, 21, 0.2);
+    box-shadow: 0 0 5.7rem rgba(20, 20, 21, 0.2);
 }
 
 .form-title {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
     color: #797979c0;
     margin: 1rem 9rem 1rem 9.9rem;
@@ -19,27 +19,26 @@ form {
     color: #7a7a7ac0;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
     background-color: transparent;
-    border-bottom: 2px solid #7a7a7ac0;
-    border-top: 0px;
-    border-right: 0px;
-    border-left: 0px;
+    border-bottom: 0.2rem solid #7a7a7ac0;
+    border-top: 0rem;
+    border-right: 0rem;
+    border-left: 0rem;
     transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
+    padding: 1.3rem;
+    margin-bottom: 1.5rem;
     width: 100%;
     box-sizing: border-box;
     outline: 0;
-}
-
-.feedback-input:focus {
-    border-bottom: 2px solid #CC4949;
+    &:focus {
+        border-bottom: 0.2rem solid #CC4949;
+    }
 }
 
 textarea {
-    height: 150px;
+    height: 15rem;
     line-height: 150%;
     resize: vertical;
 }
@@ -51,16 +50,12 @@ textarea {
     border-radius: 5rem;
     border: 0;
     cursor: pointer;
-    // font-size: 24px;
     transition: all 0.3s;
     color: #ffffff;
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
+    &:hover {
+        background: #8a4e00;
+    }
 }
-
-[type="submit"]:hover {
-    background: #8a4e00;
-}
-
-;
