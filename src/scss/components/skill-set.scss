@@ -1,8 +1,9 @@
 .units-wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 0 30rem;
-    padding: 0rem 0rem 7rem;
+    padding: 10rem 0rem 10rem;
 }
 
 .units {
@@ -12,28 +13,40 @@
 }
 
 .sides {
-    background: rgb(255, 111, 67);
+    box-shadow: 0 0 2px rgba(20, 20, 21, 0.6);
+    background-color: #ff5c36;
 }
 
 .center {
-    background: rgb(255, 237, 231);
+    box-shadow: 0 0 49px rgba(20, 20, 21, 0.11);
+    background-color: #fff3f0;
+}
+
+.button-wrapper {
+    padding: 35rem 6rem 0rem 6rem;
 }
 
 .button {
-    font-size: 2.5rem;
+    color: #000000;
+    box-shadow: 1px 6px 16px rgba(7, 7, 7, 0.363);
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 500;
     border: 0px solid black;
     background: #ffffff;
-    color: #616161;
+    color: #616161c2;
     cursor: pointer;
-    margin: 40rem 10rem -1.5rem;
-    padding: 3rem 1rem 2rem 2rem;
+    margin: 4rem 0rem 0rem 0rem;
+    padding: 1rem 3rem 3rem 3rem;
 }
 
 .button-title {
-    font-size: 1.3rem;
-    color: #616161;
-    margin: -3rem 2rem -1rem 2rem;
-    line-height: 3rem;
+    font-family: "Open Sans";
+    font-size: 13px;
+    font-weight: 300;
+    color: #616161c2;
+    margin: -3rem 6rem 0rem 6rem;
+    line-height: 2rem;
 }
 
 .cv-text {
@@ -42,8 +55,11 @@
     margin: 20rem 10rem 4rem 10rem;
 }
 
-.text {
+.cv-element {
     font-size: 1.3rem;
+    font-family: "Open Sans";
+    color: #616161;
+    font-weight: 500;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -52,22 +68,28 @@
 
 .bar-one {
     padding: 0.2rem 6rem 0.2rem;
-    background: rgb(192, 93, 0);
+    border-radius: 2px;
+    background-color: #ff6f47c2;
 }
 
 .bar-two {
     padding: 0.2rem 1rem 0.2rem;
-    background: rgb(114, 114, 114);
+    background-color: #707070c2;
 }
 
 .author {
-    font-size: 3rem;
+    opacity: 0.85;
+    color: #202020c2;
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 400;
     // margin: -2rem 1rem;
 }
 
 .title {
     font-size: 1.3rem;
-    color: rgb(255, 137, 101);
+    font-family: "Open Sans";
+    color: rgba(255, 137, 101, 0.787);
     // margin: -4rem 1rem;
 }
 
